@@ -1,0 +1,36 @@
+<section class="auth-page">
+
+  <div class="auth-card">
+
+    <h1>Login</h1>
+
+    <form
+      [formGroup]="loginForm"
+      (ngSubmit)="onSubmit()"
+    >
+
+      <input
+        type="email"
+        placeholder="Email"
+        formControlName="email"
+      />
+
+      <input
+        type="password"
+        placeholder="Password"
+        formControlName="password"
+      />
+
+      <button type="submit">
+        Login
+      </button>
+
+      <p *ngIf="errorMessage">
+        {{ errorMessage }}
+      </p>
+
+    </form>
+
+  </div>
+
+</section>

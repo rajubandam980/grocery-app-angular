@@ -1,0 +1,47 @@
+<section
+  class="details-page"
+  *ngIf="product"
+>
+
+  <div class="details-container">
+
+    <!-- IMAGE -->
+
+    <div class="image-section">
+
+      <img
+        [src]="product.image"
+        [alt]="product.name"
+      />
+
+    </div>
+
+    <!-- CONTENT -->
+
+    <div class="content-section">
+
+      <p class="category">
+        {{ product.category }}
+      </p>
+
+      <h1>
+        {{ product.name }}
+      </h1>
+
+      <p class="description">
+        {{ product.description }}
+      </p>
+
+      <h2 class="price">
+        ${{ product.price }}
+      </h2>
+
+      <button>
+        Add to Cart
+      </button>
+
+    </div>
+
+  </div>
+
+</section>

@@ -1,0 +1,43 @@
+.cart-page {
+
+  padding: 120px 8%;
+
+  color: white;
+
+  background: #0f172a;
+}
+
+.cart-item {
+
+  display: flex;
+
+  gap: 20px;
+
+  background: rgba(255,255,255,0.05);
+
+  padding: 20px;
+
+  margin-bottom: 20px;
+
+  border-radius: 15px;
+}
+
+.cart-item img {
+
+  width: 120px;
+
+  height: 120px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+}
+
+.qty button {
+
+  margin: 0 5px;
+
+  padding: 5px 10px;
+
+  cursor: pointer;
+}
