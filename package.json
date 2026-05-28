@@ -1,14 +1,13 @@
 {
   "name": "grocery-app",
   "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:grocery-app": "node dist/grocery-app/server/server.mjs"
-  },
+"scripts": {
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build --output-mode=static",
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test"
+},
   "prettier": {
     "printWidth": 100,
     "singleQuote": true,
