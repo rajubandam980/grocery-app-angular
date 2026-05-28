@@ -20,9 +20,9 @@ export const routes: Routes = [
     {
         path:'login', component: Login
     },
-    {
-        path: 'products/:id', component: ProductDetails
-    },
+    // {
+    //     path: 'products/:id', component: ProductDetails
+    // },
     {
         path: 'cart', component: Cart
     },
