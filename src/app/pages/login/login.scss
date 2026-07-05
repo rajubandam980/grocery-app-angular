@@ -53,20 +53,15 @@ input {
 }
 
 button {
-
-  width: 100%;
-
+  display: block;
+  width: 50%;
   padding: 15px;
-
   background: #3b82f6;
-
   color: white;
-
   border: none;
-
   border-radius: 12px;
-
   cursor: pointer;
+  margin: 20px auto; /* Centers the button */
 }
 .auth-card p {
 
